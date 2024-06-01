@@ -13,10 +13,12 @@ This API is intended to manage and access scores for a game that utilizes high s
 - Utilize In-Memory Database for the DB context
 - Implement RestAPI calls
 - Establist a base
+- Basic tests
 
 ### Phase 2
 - Add support for a local SQLite DB
   - Includes scripting for setting up the DB locally on the server to minimize work on the user's end
+- Additional tests
 
 ### Phase 3+ 
 *This is items that can be added down the line as I dig further into (and inevitably refactor) this project. This of it more of a "Desired Features" list for the time being.*
