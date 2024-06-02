@@ -1,6 +1,6 @@
 @HighScoreApi_HostAddress = http://localhost:5230
 
-GET {{HighScoreApi_HostAddress}}/weatherforecast/
+GET {{HighScoreApi_HostAddress}}/userscores/
 Accept: application/json
 
 ###
