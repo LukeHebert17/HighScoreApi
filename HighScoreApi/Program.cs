@@ -14,7 +14,8 @@ builder.Services.AddSwaggerGen();
 // Database services
 // TODO: utilize GetContextByType(string dbType) when it's ready
 builder.Services.AddDbContext<UserScoreContext>
-    (options => options.UseInMemoryDatabase("UserScores"));
+    (options => options.UseSqlite("FileName=.\\Database\\Scores.db"));
+    //(options => options.UseInMemoryDatabase("UserScores"));
 
 var app = builder.Build();
 

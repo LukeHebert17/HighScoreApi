@@ -11,7 +11,9 @@ namespace HighScoreApi
             switch (dbType)
             {
                 case "InMemory":
-                    // TODO: implement a pre-populated in-memory DB
+                    throw new NotImplementedException();
+                    break;
+                case "SQLite":
                     throw new NotImplementedException();
                     break;
                 default:
